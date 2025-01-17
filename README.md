@@ -44,8 +44,14 @@ Minimum sample leafs
 Minimum sample splits
 ![minimum_sample_splits](images/hyperparameter_min_sample_split.png)
 
+Based of of that I created a Decision Tree with a max_depth of 5. Depths after 5 started to show signs of overtraining and are less reliant on real world data to give an accurate classification. It's scores were 
+ROC AUC Score:  0.7286
+Accuracy Score:  0.7779124579124579
+
+Based off these scores the best model to use is our Random Forest Classifier
+
 ## Conclusion
-Overall Business Strategy: The non-profit organization should optimize resource allocation by focusing on high-risk wells such as: certain installers, older wells, and less reliable water sources particularly in areas with more nonfunctional wells than functional. Combining data-driven decision-making with targeted maintenance strategies will reduce costs associated with building new wells and increase the operational lifespan of existing water wells, ultimately benefiting the local population with a sustainable water supply.
+Overall Business Strategy: The non-profit organization should optimize resource allocation by using the Random Forest Classifier model, focusing on high-risk wells such as: certain installers, older wells, and less reliable water sources particularly in areas with more nonfunctional wells than functional. Combining data-driven decision-making with targeted maintenance strategies will reduce costs associated with building new wells and increase the operational lifespan of existing water wells, ultimately benefiting the local population with a sustainable water supply.
 
 Put more succintly
 * Wells installed by District Water Engineers (DWE) are more likely to be functioning over those installed by the Government or by Fini Water, use DWE for new well development focused in the Tabora, Dodoma, Mara, Rukwa, and Lindi regions first
