@@ -34,37 +34,42 @@ ROC AUC Score: 0.7911
 Accuracy:  0.8188552188552188
 
 Next I explored changing hyperparameters before running our model to see if we could improve performance. I looked at and graphed the following hyperparameters:
+
 Tree Depth
 ![hyperparameter_max_depth](images/hyperparameter_max_depth.png)
+
 Minimum sample leafs
 ![hyperparameter_min_sample_leafs](images/hyperparameter_min_sample_leafs.png)
+
 Minimum sample splits
 ![minimum_sample_splits](images/hyperparameter_min_sample_split.png)
+
 ## Conclusion
 Overall Business Strategy: The non-profit organization should optimize resource allocation by focusing on high-risk wells such as: certain installers, older wells, and less reliable water sources particularly in areas with more nonfunctional wells than functional. Combining data-driven decision-making with targeted maintenance strategies will reduce costs associated with building new wells and increase the operational lifespan of existing water wells, ultimately benefiting the local population with a sustainable water supply.
 
 Put more succintly
-* Wells installed by District Water Engineers (DWE) are more likely to be functioning over those installed by the Government or by Fini Water, use DWE for new well development focused in Tabora, Dodoma, Mara, Rukwa, and Lindi regions first
-* Focus repair efforts on wells older than 2000 as they are more likely to be in disrepair
+* Wells installed by District Water Engineers (DWE) are more likely to be functioning over those installed by the Government or by Fini Water, use DWE for new well development focused in the Tabora, Dodoma, Mara, Rukwa, and Lindi regions first
+* Focus repair efforts on wells older than 2000, as they are more likely to be in disrepair
 * Where new wells need to be created focus on natural resources such as springs, rivers and lakes. Sources such as boreholes or dams are much more likely to be nonfunctional.
 
 ### Navigating the Repository
-data
-    * test-set-values.csv
-    * training-set-values.csv
-    * training-set-labels.csv
-images 
-    * ROC_curve_model_evaluation.png
-    * construction_decade.png
-    * extraction_type.png
-    * hyperparameter_max_depth.png
-    * hyperparameter_min_sample_leafs.png
-    * hyperparameter_min_sample_split.png
-    * installer.png
-    * region_well_source.png
-    * water_well_source_bar.png
-.gitignore
-README.md
-project-3-tazmanian-water-wells.ipynb
-project-3-presentation
+data<br/>
+    * test-set-values.csv<br/>
+    * training-set-values.csv<br/>
+    * training-set-labels.csv<br/>
+images <br/>
+    * ROC_curve_model_evaluation.png<br/>
+    * construction_decade.png<br/>
+    * extraction_type.png<br/>
+    * hyperparameter_max_depth.png<br/>
+    * hyperparameter_min_sample_leafs.png<br/>
+    * hyperparameter_min_sample_split.png<br/>
+    * installer.png<br/>
+    * region_well_source.png<br/>
+    * water_well_source_bar.png<br/>
+.gitignore<br/>
+README.md<br/>
+project-3-tazmanian-water-wells.ipynb<br/>
+project-3-presentation<br/>
 ### Link to Presentation
+![project_3_water_wells](https://github.com/jaredlil/project-3-tanzanian-water-wells/blob/main/project_3_water_wells.pdf)
